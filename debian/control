@@ -1,0 +1,12 @@
+Source: ros-melodic-microstrain-mips
+Section: misc
+Priority: extra
+Maintainer: Brian Bingham <briansbingham@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-cmake-modules, ros-melodic-geometry-msgs, ros-melodic-message-generation, ros-melodic-nav-msgs, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-std-srvs, ros-melodic-tf2, ros-melodic-tf2-ros
+Homepage: http://wiki.ros.org/microstrain_3dm_gx5_45
+Standards-Version: 3.9.2
+
+Package: ros-melodic-microstrain-mips
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-cmake-modules, ros-melodic-diagnostic-aggregator, ros-melodic-diagnostic-updater, ros-melodic-geometry-msgs, ros-melodic-message-runtime, ros-melodic-nav-msgs, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-std-srvs, ros-melodic-tf2, ros-melodic-tf2-ros
+Description: The microstrain_mips package provides a driver for the LORD/Microstrain 3DM_GX5_XX GPS-aided IMU sensor.
