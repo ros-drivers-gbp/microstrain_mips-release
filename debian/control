@@ -1,0 +1,12 @@
+Source: ros-kinetic-microstrain-mips
+Section: misc
+Priority: extra
+Maintainer: Brian Bingham <briansbingham@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-cmake-modules, ros-kinetic-diagnostic-updater, ros-kinetic-geometry-msgs, ros-kinetic-message-generation, ros-kinetic-nav-msgs, ros-kinetic-roscpp, ros-kinetic-roslint, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-std-srvs, ros-kinetic-tf2, ros-kinetic-tf2-ros
+Homepage: http://wiki.ros.org/microstrain_3dm_gx5_45
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-microstrain-mips
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-cmake-modules, ros-kinetic-diagnostic-aggregator, ros-kinetic-diagnostic-updater, ros-kinetic-geometry-msgs, ros-kinetic-message-runtime, ros-kinetic-nav-msgs, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-std-srvs, ros-kinetic-tf2, ros-kinetic-tf2-ros
+Description: The microstrain_mips package provides a driver for the LORD/Microstrain 3DM_GX5_XX GPS-aided IMU sensor.
