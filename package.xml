@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>microstrain_mips</name>
-  <version>0.0.2</version>
+  <version>0.0.3</version>
   <description>The microstrain_mips package provides a driver for the LORD/Microstrain 3DM_GX5_XX GPS-aided IMU sensor.</description>
   <author email="briansbingham@gmail.com">Brian Bingham</author> -->
   <maintainer email="briansbingham@gmail.com">Brian Bingham</maintainer>
@@ -12,6 +12,7 @@
 
   <depend>roscpp</depend>
   <depend>cmake_modules</depend>
+  <depend>diagnostic_updater</depend>
   <depend>tf2</depend>
   <depend>tf2_ros</depend>
   <depend>std_msgs</depend>
@@ -20,9 +21,9 @@
   <depend>sensor_msgs</depend>
   <depend>nav_msgs</depend>
 
-  <build_depend>message_generation</build_depend> 
+  <build_depend>message_generation</build_depend>
+  <build_depend>roslint</build_depend>
   <exec_depend>message_runtime</exec_depend>
-  <exec_depend>diagnostic_updater</exec_depend>
   <exec_depend>diagnostic_aggregator</exec_depend>
 
   <export>
